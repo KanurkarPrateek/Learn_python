@@ -1,0 +1,5 @@
+arr = list(map(int,input("enter the array").split()))
+n=len(arr)
+arr.sort()
+print(arr[0])
+print(arr[n-1])
